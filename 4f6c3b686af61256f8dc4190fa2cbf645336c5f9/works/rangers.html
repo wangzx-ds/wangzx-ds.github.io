@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rangers</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Roboto+Condensed" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../js/vendor/bootstrap/bootstrap.css" rel="stylesheet">
+    <link rel="icon" type="../image/png" href="../img/ava.png" sizes="32x32">
+    <link rel="icon" type="../image/png" href="../img/ava.png" sizes="16x16">
+    <link href="../css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="page-loader" id="page-loader">
+    <div class="loading-wrapper">
+        <div class="spinner"></div>
+    </div>
+</div>
+<div class="page-wrapper">
+<header class="header is-top" id="header">
+    <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 hidden-sm hidden-xs">
+                        
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <div class="navbar-collapse collapse navbar-left" id="navbar-collapse">
+                            <ul class="nav navbar-nav" id="nav">
+                              <li><a href="../index.html" class="colapse-menu">Home</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar-collapse collapse navbar-right" id="navbar-collapse">
+                            <ul class="nav navbar-nav" id="nav">
+                              <li><a href="../index.html" class="colapse-menu">Portfolio</a></li>
+                              <li><a href="../about.html" class="colapse-menu">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 hidden-sm hidden-xs">
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+</header>
+    <div class="project-intro">
+        <!-- title section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="project-title text-center">
+                        <h1 class="text-uppercase spb-10">CDP Rangers</h1>
+                        <h2 class="spb-10">An AI-powered monitoring and analyzing solution of CICS transactions customized to China clients</h2>
+                        <h5 class="spb-10">MVP Released in 2019 / Signed 3 deals of over 900k USD</h5>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <img class="spt-30" src="../img/works/rangers/hero.jpg" alt="Survey" width="100%"/>
+
+        <!-- main start -->
+        <div class="container">
+
+            <div class="project-section spt-50">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title spt-30">Challenge</div>
+                        <!-- <div class="section-subtitle">Clients requirements are not fully satisfied.</div> -->
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p><strong class="quote-stype">Client requirements are not fully satisfied with current tools and operational experience.</strong></p>
+                                <p><strong>Flexibility (OMEGAMON): </strong>&nbsp OMEGAMON for CICS requires excessive effort spent on human scrutinization which relies heavily on personal experience, not friendly with new users.</p>
+                                <p><strong>Timeliness (CICS Performance Analyzer): </strong>&nbsp CICS Performance Analyzer (PA) generates analytical reports once a day, which for some cases is too late to take corrective actions.</p>
+                                <p class="spb-30"><strong>Ease of use:</strong>&nbsp Scattered information collected from different tools in order to do root cause analysis(RCA), which slows down the process and makes it hard for new users to onboard those tools.</p>
+
+                                <p><strong class="quote-stype">Design Goal</strong></p>
+                                <p>Taking advantage of AI and ML, redefine the transaction management experience which allows operators to <strong>quickly</strong> and <strong>easily</strong> conduct root cause analysis with <strong>minimal learning cost</strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-section">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title">Design process</div>
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p>Data scientists drove the early stage discussion in regards to AI and data modeling - analyzing anomalies and abnormal behaviors, then I re-defined the RCA experience explorations - from locating precise problems to supporting problem detection and analysis.</p>
+                                
+                                <p class="spt-30"><strong class="quote-stype">1. Explore user pain points and conduct competitive analysis</strong></p>
+                                <p>Interviewed operation team from CEB (光大银行) and JS-RCU(江苏农信), clarified the <strong>scenarios - a) Routine Monitoring and b) Problem Handling</strong>, identified the information they need and the approach they take to make decisions in each scenario.</p>
+                                <img src="../img/works/rangers/userjourney.jpg" class="spt-10 spb-30" alt="Design Process" width="100%"/>
+                                <p>Then I looked at various <strong>operational tools</strong> on the market to understand how their users approach an operational problem, e.g. Splunk, Elastic, BMC View, etc. Besides, I also compared different <strong>dashboard designs</strong> on Dribbble and Google to figure out the efficient ways to deliver key information.</p>
+
+                                <p class="spt-30"><strong class="quote-stype">2. Create core user flow and test with users during PoC</strong></p>
+                                <p>We started thinking about how AI could play a role in solve operational problems. We firstly prioritized the information and use cases in a way which suits most common user requirements and generated the <strong>core user flow</strong>. Then we created lo-fi mockups while considering page layout, information density and efficiency.</p>
+                                <p>After that, we created a demo based off of the rough ideas and tested it with client's real SMF data during PoC, asking the operators to perform their daily tasks and <strong>collected their feedbacks.</strong></p>
+
+                                <p class="spt-30"><strong class="quote-stype">3. Finalize interaction and visual details</strong></p>
+                                <p>Coming back from clients, we iterated the design and user flows, enhanced <strong>simplicity and efficiency</strong> by reorganizing the structure and entry points. We also revamped the whole user experience again to eliminate edge cases. After that, I created hi-fi mockups using IBM Carbon for <strong>standardization and future scalability</strong>. </p>
+                                <img src="../img/works/rangers/structure.jpg" class="spt-10 spb-30" alt="Design Process" width="100%"/>
+
+                                <p class="spt-30"><strong class="quote-stype">4. Deliver to engineers and run design checks</strong></p>
+                                <p>I built the first ever design check patterns with the dev team, looking into the details of the implementation, ensuring the <strong>desired status</strong> are met. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project-section">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title spt-10">Design outcome</div>
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p><strong class="quote-stype">To-be Journey</strong></p>
+                                <p>To-be experiecne reduces significant amount of time for the operations team by <strong>early alerting anomalies to avoid massive impacts</strong> and <strong>reducing operations costs on RCA.</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 spb-30">
+                        <!-- <img src="../img/works/rangers/asis.jpg" alt="Design Process" width="100%"/> -->
+                        <img src="../img/works/rangers/tobe.jpg" alt="Design Process" width="100%"/>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 spt-10">
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p><strong class="quote-stype">Key Pages</strong></p>
+                                <p><strong>CICS Overview: </strong>Get an overview of CICS transactions to ensure the system is running ok, then check out the anomalies for potential system impact. </p>
+                                <img src="../img/works/rangers/01.png" class="spt-10 spb-30" alt="Design Process" width="100%"/>
+                                <p><strong>Transaction Details: </strong>Includes all the transaction instance in a sorted order, where operators could examine horizontally to find common issues. Once found, use the ID to communicate with corresponding SME. </p>
+                                <img src="../img/works/rangers/02.png" class="spt-10 spb-30" alt="Design Process" width="100%"/>
+                                <p><strong>CICS Toolset: </strong>A set of optional tools available to operators and SMEs to look at transactions from various perspectives.</p>
+                                <img src="../img/works/rangers/03.png" class="spt-10 spb-30" alt="Design Process" width="100%"/>
+                                <img src="../img/works/rangers/04.png" class="spt-10 spb-30" alt="Design Process" width="100%"/>
+                                <img src="../img/works/rangers/05.png" class="spt-10 spb-30" alt="Design Process" width="100%"/>
+                                <p><strong>Reporting: </strong>Reporting tool allows operators to generate system reports with various granularities and share with managers, SMEs and other stakeholders.  </p>
+                                <img src="../img/works/rangers/06.png" class="spt-10 spb-30" alt="Design Process" width="100%"/>
+                                <img src="../img/works/rangers/07.png" class="spt-10 spb-30" alt="Design Process" width="100%"/>
+                            </div>
+                        </div>
+                        
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title">Achievement, Takeaway & Future works</div>
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p class="spb-10">CDP Rangers has now been purchased by <strong>3 bank clients in China</strong> and deployed into production environment, no negative feedbacks recieved so far. And it is now in progress of being a part of <strong>IZOA core product</strong>.</p>
+                                <p>It is also worth thinking about how to keep design consistency when it <strong>scales</strong> and <strong>integrates</strong> with IZOA, and how to "modernize" developer's mindsets of design a product in the future.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+        </div><!-- end container -->
+    </div><!-- end project intro-->
+
+<footer class="footer">
+    <div class="container">
+            <div class="row">
+                <div class="col-md-2 hidden-sm hidden-xs"></div>
+                <div class="col-md-8">
+                    <h3>Thanks for coming. Now, let's <a href="../about.html">connect</a>. :)</h3>
+                </div>
+                <div class="col-md-2 hidden-sm hidden-xs"></div>
+            </div>
+        </div>
+</footer>
+</div>
+
+<script src="../js/plugins/jquery.js"></script>
+<script src="../js/plugins/imageload/imageload.js"></script>
+<script src="../js/plugins/isotope/isotope.js"></script>
+<script src="../js/plugins/carousel/owl.carousel.js"></script>
+<script src="../js/plugins/nav/nav.js"></script>
+<script src="../js/plugins/lightbox/lightbox.js"></script>
+<script src="../js/plugins/isinviewport/isinviewport.js"></script>
+<script src="../js/vendor/bootstrap/bootstrap.js"></script>
+<script src="../js/scripts/helper/helper.js"></script>
+<script src="../js/scripts/pController/pController.js"></script>
+<script src="../js/plugins/isinviewport/isinviewport.js"></script>
+
+<!-- before -->
+<script src="../js/main.js"></script>
+</body>

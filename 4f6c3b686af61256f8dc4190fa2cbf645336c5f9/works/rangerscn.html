@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gyruss</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Roboto+Condensed" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../js/vendor/bootstrap/bootstrap.css" rel="stylesheet">
+    <link rel="icon" type="../image/png" href="../img/ava.png" sizes="32x32">
+    <link rel="icon" type="../image/png" href="../img/ava.png" sizes="16x16">
+    <link href="../css/stylescn.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="page-loader" id="page-loader">
+    <div class="loading-wrapper">
+        <div class="spinner"></div>
+    </div>
+</div>
+<div class="page-wrapper">
+<header class="header is-top" id="header">
+    <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 hidden-sm hidden-xs">
+                        
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <div class="navbar-collapse collapse navbar-left" id="navbar-collapse">
+                            <ul class="nav navbar-nav" id="nav">
+                              <li><a href="../index.html" class="colapse-menu">Home</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar-collapse collapse navbar-right" id="navbar-collapse">
+                            <ul class="nav navbar-nav" id="nav">
+                              <li><a href="../index.html" class="colapse-menu">Portfolio</a></li>
+                              <li><a href="../about.html" class="colapse-menu">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 hidden-sm hidden-xs">
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+</header>
+    <div class="project-intro">
+        <!-- title section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="project-title text-center">
+                        <h1 class="text-uppercase spb-10">CDP Gyruss</h1>
+                        <h2 class="spb-10">基于 IBM Watson 的智能运维数据分析平台，通过对主机系统和应用的的实时智能监控分析，保障主机生产环境安全</h2>
+                        <h5 class="spb-10">2019 GA / 目前签单约 110 万美金</h5>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <img class="spt-30" src="../img/works/rangers/hero.jpg" alt="Survey" width="100%"/>
+
+        <!-- main start -->
+        <div class="container">
+
+            <div class="project-section spt-50">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title spt-30">项目背景</div>
+
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p>能够精准的预测问题，是智能运维和事件预测的终极目标。但当前由于事件发展的不可预测性，以及实际场景中真实问题发生的低频次（工行一年最多不超过4次），导致中国客户更倾向于用传统运维的工具和方式以保障系统的安全运行。所以我们团队从这里切入，用AI的方法助力安全运维，重点筛查潜在问题、而不是对系统事件作出预测，辅助用户对系统的管理.</p>
+                            </div>
+                        </div>
+
+                        <div class="section-title spt-30">Gyruss的数据价值：智能预测趋势分析</div>
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p><strong>提升报警准确率和正确率：</strong>传统工具使用固定阈值不够灵活，但实际情况多变导致错过真正的问题，要么产生很多假警报；</p>
+                                <p><strong>提升监控的时效性：</strong>现行警报的触发机制是当系统问题发生之后，或者每天进行一次review。这样的频率有可能影响到终端业务；</p>
+                                <p><strong>降低个人经验带来的结果偏差：</strong>在设置固定阈值时，对问题（incident）的定义和被监控指标的选择，以及对报警信息的甄别判断需要依赖人力和个人经验进行操作；</p>
+                                
+                            </div>
+                        </div>
+                        <div class="section-title spt-30">基于 idea 的早期调研</div>
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <!-- <p><strong class="quote-stype">用户访谈</strong></p> -->
+                                <p>开发团队曾经和客户做过一次Demo，反馈效果并不好，客户认为新产品没有带来显著的使用上的改变。于是我们打算从用户调研开始，完成从数据价值到业务价值和体验价值的转化。</p>
+                                <p class="spt-10">我们拜访了两家国内银行的主机运维团队，调研目的分成两部分，<strong>第一部分是对使用场景和流程以及用户痛点的梳理</strong>。第二部分是在有了之前接触的前提下，<strong>希望能够深入分析了解用户对于新产品核心价值点的观点</strong>，判断什么是个好产品，为什么要用等。</p>
+                                
+
+                                <p class="spt-30"><strong class="quote-stype">运维场景及需求</strong></p>
+                                <p>对于场景的梳理我们分为两层，第一层是 <strong>业务逻辑层</strong>（例如用户需要确保系统的正常运转，他需要关注哪些指标，做哪些分析，并以此做出什么样的决策判断和处理）；第二层是 <strong>实操层</strong>（例如用户多久监测一次系统状况，或者用户在什么时机下开始分析潜在问题，以及他是如何一步步获取这些信息的，使用了什么工具，是否需要外部帮助如参考playbook等）</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 spb-30">
+                        <img src="../img/works/rangers/fenxi01.jpg" alt="Design Process" width="100%"/>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                
+                                <p class="spt-50 spb-10"><strong class="quote-stype">传统运维的痛点</strong></p>
+                                <!-- <div class="row">
+                                    <div class="col-md-2">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p> <strong>效率低</strong></p>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>需要到不同的工具中去获取需要的信息；</p>
+                                        <p>需要额外做统计分析，流程复杂；</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p> <strong>不准确</strong></p>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>原始数据可读性差，导致检查会不全面；</p>
+                                        <p>对核心指标的选取和判断因人而异，导致千人前面的系统报告结论；</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p> <strong>门槛高</strong></p>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>工具数量多和操作复杂，上手困难；</p>
+                                        <p>经验欠缺，需要资深管理员协助对情况做出判断；</p>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 spb-30">
+                        <img src="../img/works/rangers/pain.jpg" alt="Design Process" width="100%"/>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p class="spt-30 spb-10"><strong class="quote-stype">用户类型</strong></p>
+                                <p class="">通过群体访谈，我们逐渐了解到不同用户在监控分析阶段的工作内容，以及对于新产品的态度和价值关注点。并据此确定了四种不同的用户类型。</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 spb-30">
+                        <img src="../img/works/rangers/user.jpg" alt="Design Process" width="100%"/>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p class="spt-30">同时我们发现，对于新产品中的 AI 建议，以及整体产品体验，不同资深程度的用户有着不一样的接受程度和预期。</p>
+                                <ul class="simple-list">
+                                    <li>
+                                        <i class="icon-circle-thin"></i>
+                                        <p><strong>资深的专家（不相信）：</strong>“我知道如何判断如何判断问题的严重程度，我要看到需要关注的数据点，以及新产品的准确度；”</p>
+                                    </li>
+                                    <li>
+                                        <i class="icon-circle-thin"></i>
+                                        <p><strong>初级的管理员（不会用）：</strong>“我大概知道如何判断问题，但你这个我不会用。”</p>
+                                    </li>
+                                </ul>                                
+                            </div>
+                        </div>
+                        <div class="section-title spt-50">设计目标</div>
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p class="">用户能够快速、准确、全面的发现系统潜在异常，通过标准化的处理流程判断问题原因，排查异常情况，帮助企业避免大范围业务损失。同时新手管理员能够快速上手，高质量的完成的监控分析任务。</p>
+                            </div>
+                        </div>
+                        <div class="section-title spt-50">初期产品形态和结构</div>
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p>根据开发团队当前提供的数据，一共有面向四种不同 Domain 的数据，分别是Transaction，System，Workload，Storage。我们首先对于每一个 Domain 及其在不同场景下的需求按照如下框架进行了 <strong>整理和排序</strong>；同时将 <strong>AI的趋势分析结果</strong>融入到部分需求中：</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 spt-10 spb-30">
+                        <img src="../img/works/rangers/quesflow.jpg" alt="Design Process" width="100%"/>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p class="spt-30">同时，我们针对日常系统健康走查的需求，增加了一个 <strong>全系统的层面的 Dashboard</strong>，以此来满足快速筛查的目的，避免不同 Domain 之间的来回切换。然后对于分散的非普适性需求，我们决定通过 <strong>工具</strong>的方式提供给用户。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 spt-10 spb-30">
+                        <img src="../img/works/rangers/et.jpg" alt="Design Process" width="100%"/>
+                    </div>
+
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title spt-50">PoC及用户反馈</div>
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p>基于以上流程，以及对市面上主要运维产品及数据可视化产品的 <strong>对比参考</strong>，我们快速的制定了一套方案并带去跟某银行客户做PoC，过程中邀请了3位不同用户在测试环境中进行了 <strong>可用性测试</strong>，邀请他们分别对日常系统健康判断和潜在问题排查两项任务进行试用，并收集他们在过程中的反馈。</p>
+                                <p class="spt-30"><strong class="quote-stype">工具性 or 结论性</strong></p>
+                                <p>用户整体对产品的准确性和使用流畅性是比较满意的，但有业务经理反馈希望我们的数据表达 <strong>更加直观</strong>一点。因此我们又重新对页面的可视化的元素进行了新一轮的优化，适当的加入一些总结性的数据，而非让用户有充分的自由度去探索数据。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 spt-10 spb-30">
+                        <img src="../img/works/rangers/manager.jpg" alt="Design Process" width="100%"/>
+                    </div>
+
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title spt-50">产品迭代及完善</div>
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p class=""><strong class="quote-stype">设计一致性</strong></p>
+                                <p>基于Transaction Domain的设计，我们逐渐将其他 Domain 和工具的页面添加进产品中。为确保视觉元素的一致性，我们结合 IBM Carbon 和实际业务展示需求，定义了一套的 Design Library。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 spt-10 spb-30">
+                        <img src="../img/works/rangers/lib.jpg" alt="Design Process" width="100%"/>
+                    </div>
+
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p><strong class="quote-stype">设计交付和验收</strong></p>
+                                <p>使用Sketch Measure进行线下交付，同时制作 InVision 对交互的逻辑进行展示；验收方面，对每个交付的需求进行设计验收，重点关注 <strong>响应式页面的适配、样式的还原度和逻辑跳转的正确性</strong>。</p>
+                            </div>
+                        </div>
+                        <div class="section-title spt-30">设计终稿</div>
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p><strong class="quote-stype">核心功能介绍</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 spt-10 spb-30">
+                        <img src="../img/works/rangers/demo1.jpg" alt="Design Process" width="100%"/>
+                    </div>
+                    <div class="col-md-12 spt-10 spb-30">
+                        <img src="../img/works/rangers/demo2.jpg" alt="Design Process" width="100%"/>
+                    </div>
+
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p class="spt-30"><strong class="quote-stype">风险交易筛查分析</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 spt-10 spb-30">
+                        <img src="../img/works/rangers/demo3.jpg" alt="Design Process" width="100%"/>
+                    </div>
+
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p class="spt-30"><strong class="quote-stype">更多页面展示</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 spt-10 spb-30">
+                        <img src="../img/works/rangers/demo4.jpg" alt="Design Process" width="100%"/>
+                    </div>
+
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title spt-30">项目成果</div>
+                        <div class="project-section-cnt">
+                            <div class="method-intro">
+                                <p>截止到目前，Gyruss 已完成交付对全生产环境、系统交易、工作负载、硬件系统、 存储等维度的监控分析功能及相关工具（ <strong>约 30 余关键页面</strong>）。截止到6月底，Gyruss 已经部署到了三家国内一家国外，一共四家银行客户的生产环境中，并因此为 IBM 带来相关签约成交订单总额超过 <strong>110w 美金</strong>。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            <hr>
+
+        </div><!-- end container -->
+    </div><!-- end project intro-->
+
+<footer class="footer">
+    <div class="container">
+            <div class="row">
+                <div class="col-md-2 hidden-sm hidden-xs"></div>
+                <div class="col-md-8">
+                    <h3>Thanks for coming. Now, let's <a href="../about.html">connect</a>. :)</h3>
+                </div>
+                <div class="col-md-2 hidden-sm hidden-xs"></div>
+            </div>
+        </div>
+</footer>
+</div>
+
+<script src="../js/plugins/jquery.js"></script>
+<script src="../js/plugins/imageload/imageload.js"></script>
+<script src="../js/plugins/isotope/isotope.js"></script>
+<script src="../js/plugins/carousel/owl.carousel.js"></script>
+<script src="../js/plugins/nav/nav.js"></script>
+<script src="../js/plugins/lightbox/lightbox.js"></script>
+<script src="../js/plugins/isinviewport/isinviewport.js"></script>
+<script src="../js/vendor/bootstrap/bootstrap.js"></script>
+<script src="../js/scripts/helper/helper.js"></script>
+<script src="../js/scripts/pController/pController.js"></script>
+<script src="../js/plugins/isinviewport/isinviewport.js"></script>
+
+<!-- before -->
+<script src="../js/main.js"></script>
+</body>
